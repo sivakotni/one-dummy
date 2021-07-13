@@ -10,6 +10,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="9thjuly-2021Flow" doc:id="95e358df-3a00-4301-baa9-1e5f25411ed2" >
 		<http:listener doc:name="Listener" doc:id="f7394d2a-44bf-42a6-98db-d4ea6f0e30f6" config-ref="HTTP_Listener_config" path="/dummy"/>
 		<set-payload value='#["sawed adsdadad"]' doc:name="Set Payload" doc:id="accc013c-9ef1-4cb4-811b-9b6e3d2f43b9" />
-		<logger level="INFO" doc:name="Logger" doc:id="8cb359d8-7450-4970-9452-a831fb927be1" message="#[payload]"/>
 	</flow>
 </mule>
